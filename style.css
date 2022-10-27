@@ -456,7 +456,7 @@ nav {
 .modal--open .modal {
     z-index: 60;
     box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
-    visibility: visible;;
+    visibility: visible;
     
 }
 
@@ -474,6 +474,7 @@ nav {
 .modal--open .modal__about,
 .modal--open .modal__contact {
     transform: translateX(0%);
+    
 }
 
 .modal__about {
@@ -815,7 +816,6 @@ footer {
 
 .shape {
     position: fixed;
-    z-index: 1;
 }
 
 
@@ -842,6 +842,7 @@ footer {
  .shape--4 {
     top: 50vh;
     left: 50vw;
+    display: none;
  }
 
  .shape--5 {
@@ -867,7 +868,7 @@ footer {
 
 
  @media (max-width: 768px) {
-    .tittle {
+    .title {
         font-size: 80px;
     }
     .header__para {
