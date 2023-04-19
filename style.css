@@ -183,7 +183,8 @@ header {
 .dark-theme .section_sub-tittle,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
-.dark-theme .header__para
+.dark-theme .header__para,
+.dark-theme .footer__logo--img
 {
     color: white;
 }
@@ -979,7 +980,7 @@ footer {
    }
 
    .project__description--sub-title {
-    margin-bottom: 8px;
+    display: none;
    }
 
 
@@ -989,5 +990,12 @@ footer {
 
    .footer__copyright {
     text-align: center;
+   }
+
+   .btn {
+    width: 50%;
+    position: relative;
+    margin-right: 200px;
+    margin-top: 10px;
    }
  }
